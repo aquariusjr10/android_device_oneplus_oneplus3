@@ -392,21 +392,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OnePlus Apps
 PRODUCT_PACKAGES += \
     oneplusgallery \
-    GoogleCamera \
-    bromite-webview \
-    privapp-permissions-AuroraServices.xml \
-    AuroraServices \
-    AuroraStore \
-    AppWarden \
-    additional_repos.xml \
-    eSpeakTTS \
-    privapp-permissions-com.google.android.gms.xml \
-    GmsCore \
-    privapp-permissions-com.android.vending.xml \
-    FakeStore \
-    GsfProxy \
-    MozillaNlpBackend \
-    NominatimNlpBackend 
+    GoogleCamera 
+    #bromite-webview \
+    #privapp-permissions-AuroraServices.xml \
+    #AuroraServices \
+    #AuroraStore \
+    #AppWarden \
+    #additional_repos.xml \
+    #eSpeakTTS \
+    #privapp-permissions-com.google.android.gms.xml \
+    #GmsCore \
+    #privapp-permissions-com.android.vending.xml \
+    #FakeStore \
+    #GsfProxy \
+    #MozillaNlpBackend \
+    #NominatimNlpBackend 
 
 
 # OEM Unlock reporting
