@@ -389,6 +389,25 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.nfc_nci=nqx.default \
     vendor.qti.nfc.chipid=0x51
 
+# OnePlus Apps
+PRODUCT_PACKAGES += \
+    oneplusgallery \
+    bromite-webview \
+    privapp-permissions-AuroraServices.xml \
+    AuroraServices \
+    AuroraStore \
+    AppWarden \
+    additional_repos.xml \
+    eSpeakTTS \
+    privapp-permissions-com.google.android.gms.xml \
+    GmsCore \
+    privapp-permissions-com.android.vending.xml \
+    FakeStore \
+    GsfProxy \
+    MozillaNlpBackend \
+    NominatimNlpBackend 
+
+
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
