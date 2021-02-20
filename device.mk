@@ -392,6 +392,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OnePlus Apps
 PRODUCT_PACKAGES += \
     oneplusgallery \
+    GoogleCamera \
     bromite-webview \
     privapp-permissions-AuroraServices.xml \
     AuroraServices \
