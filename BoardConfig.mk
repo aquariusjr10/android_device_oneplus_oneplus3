@@ -25,6 +25,7 @@
 -include device/oppo/common/BoardConfigCommon.mk
 
 PLATFORM_PATH := device/oneplus/oneplus3
+BUILD_BROKEN_DUP_RULES := true
 
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
