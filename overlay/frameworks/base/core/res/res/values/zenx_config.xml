@@ -34,4 +34,17 @@
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent"></string>
 
+    <!-- Component names of the services which will keep critical code path warm -->
+    <string-array name="config_keep_warming_services" translatable="false" />
+    
+    <string name="config_cpu_temp_path" translatable="false">/sys/class/thermal/thermal_zone4/temp</string>
+    <string name="config_battery_temp_path" translatable="false">/sys/class/power_supply/battery/temp</string>
+    <string name="config_gpu_clock_path" translatable="false">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_gpu_busy_path" translatable="false">/sys/kernel/gpu/gpu_busy</string>
+
+    <!-- Whether or not wcg (wide color gamut) should be enabled on this device,
+         we only enabled it while the device has ability of mixed color spaces composition -->
+    <bool name="config_enableWcgMode">true</bool>
+
+
 </resources>
