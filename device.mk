@@ -395,7 +395,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Zenx Extras
 PRODUCT_PACKAGES += \
-    GCamGo
+    GCamGo\
+    Materialfiles\
+    GoogleCamera
+
 
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

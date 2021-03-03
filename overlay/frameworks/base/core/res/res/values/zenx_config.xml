@@ -53,6 +53,6 @@
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
-
-
+    <!-- Fix statusbar padding issue on OnePlus 3/3T. -->
+    <dimen name="status_bar_height_portrait">94.0px</dimen>
 </resources>
