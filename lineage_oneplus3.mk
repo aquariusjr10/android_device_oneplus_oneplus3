@@ -34,8 +34,8 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys
-BUILD_DESCRIPTION := redfin-user 11 RQ1A.210205.004 7038034 release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ2A.210305.006 7119741 release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
@@ -48,7 +48,7 @@ TARGET_VENDOR := oneplus
 #Sakura stuffs
 TARGET_BOOT_ANIMATION_RES:= 1080
 SAKURA_BUILD_TYPE := vanilla
-SAKURA_OPLAUNCHER := true
+#SAKURA_OPLAUNCHER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 SAKURA_OFFICIAL := true
 SAKURA_MAINTAINER := DeepakJr
